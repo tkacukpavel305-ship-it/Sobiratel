@@ -16,7 +16,7 @@ jobs:
 
       - name: Extract project ZIP
         run: |
-          unzip -q SoBiratel-Android-Project.zip -d project
+          unzip -q SoBiratel-Android-Project-Fixed.zip -d project
           cd project
           ls -la
 
